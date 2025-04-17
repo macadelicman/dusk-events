@@ -1,0 +1,42 @@
+.current-indicator {
+  position: absolute;
+  width: 2px;
+  left: -16px; /* Equivalent to -left-4 in Tailwind */
+  border-radius: 9999px; /* rounded-full */
+  background-color: rgb(9, 9, 11); /* bg-zinc-950 */
+  transition: opacity 0.2s ease, top 0.3s ease-out, height 0.3s ease-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  .current-indicator {
+    background-color: white; /* dark:bg-white */
+  }
+}
+
+.touch-target {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* Add animations for sidebar transitions */
+.sidebar-item-enter {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.sidebar-item-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.sidebar-item-exit {
+  opacity: 1;
+}
+
+.sidebar-item-exit-active {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 300ms, transform 300ms;
+}

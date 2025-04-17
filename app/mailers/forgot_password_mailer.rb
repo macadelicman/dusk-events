@@ -1,0 +1,2 @@
+class ForgotPasswordMailer < ApplicationMailer
+end

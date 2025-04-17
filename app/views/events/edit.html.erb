@@ -1,0 +1,13 @@
+<%# app/views/events/edit.html.erb %>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="lg:block">
+    <%= back_link("Events", events_path) %>
+  </div>
+
+  <%= page_heading("Edit Event: #{@event.name}", class: "mt-6") %>
+
+  <div class="mt-8">
+    <%= render "form", event: @event %>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<%# app/views/events/new.html.erb %>
+
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="lg:block">
+    <%= back_link("Events", events_path) %>
+  </div>
+
+  <%= page_heading("Create New Event", class: "mt-6") %>
+
+  <div class="mt-8">
+    <%= render "form", event: @event %>
+  </div>
+</div>

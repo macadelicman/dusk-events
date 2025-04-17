@@ -1,0 +1,57 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Customers" %>
+
+<h1>Customers</h1>
+
+<div id="customers">
+  <% @customers.each do |customer| %>
+    <%= render customer %>
+    <p>
+      <%= link_to "Show this customer", customer %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New customer", new_customer_path %>
+# app/views/customers/index.html.erb
+<h1>Customers</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Country</th>
+    <th colspan="3">Actions</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @customers.each do |customer| %>
+    <tr>
+      <td><%= customer.name %></td>
+      <td><%= customer.email %></td>
+      <td><%= customer.address %></td>
+      <td>
+        <% if customer.country.present? %>
+            <span class="country">
+              <% if customer.country.flag_url.present? %>
+                <%= image_tag customer.country.flag_url, alt: customer.country.name, class: 'flag-icon' %>
+              <% end %>
+              <%= customer.country.name %>
+            </span>
+        <% end %>
+      </td>
+      <td><%= link_to 'Show', customer %></td>
+      <td><%= link_to 'Edit', edit_customer_path(customer) %></td>
+      <td><%= link_to 'Destroy', customer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Customer', new_customer_path %>

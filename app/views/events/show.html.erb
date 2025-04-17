@@ -1,0 +1,200 @@
+<%# app/views/events/show.html.erb %>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="lg:block">
+    <%= back_link("Events", events_path) %>
+  </div>
+
+  <div class="mt-4 flex flex-wrap items-end justify-between gap-4">
+    <div class="flex flex-wrap items-center gap-6">
+      <div class="w-32 shrink-0">
+        <%= event_image(@event) %>
+      </div>
+
+      <div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <%= page_heading(@event.name) %>
+          <%= status_badge(@event.status) %>
+        </div>
+
+        <div class="mt-2 text-sm text-gray-500">
+          <%= format_date(@event.date) %> at <%= @event.time %> <span aria-hidden="true">·</span> <%= @event.location %>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <%= link_to "Edit", edit_event_path(@event), class: "inline-flex items-center justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50" %>
+      <%= link_to "View", "#", class: "inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-gray-700" %>
+    </div>
+  </div>
+
+  <div class="mt-8 grid gap-8 sm:grid-cols-3">
+    <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-950/5">
+      <div class="text-sm font-medium text-gray-500">Total revenue</div>
+      <div class="mt-2 flex items-baseline gap-2">
+        <div class="text-4xl font-extrabold tracking-tight text-gray-900">
+          <%= def format_currency(i)
+                # code here
+              end
+              format_currency(@event.total_revenue) %>
+        </div>
+        <%= display_change(@event.total_revenue_change) %>
+      </div>
+    </div>
+
+    <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-950/5">
+      <div class="text-sm font-medium text-gray-500">Tickets sold</div>
+      <div class="mt-2 flex items-baseline gap-2">
+        <div class="text-4xl font-extrabold tracking-tight text-gray-900">
+          <%= @event.tickets_sold %>/<%= @event.tickets_available %>
+        </div>
+        <%= display_change(@event.tickets_sold_change) %>
+      </div>
+      <div class="mt-4">
+        <%= progress_bar(@event.tickets_sold, @event.tickets_available, class: "h-2") %>
+      </div>
+    </div>
+
+    <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-950/5">
+      <div class="text-sm font-medium text-gray-500">Pageviews</div>
+      <div class="mt-2 flex items-baseline gap-2">
+        <div class="text-4xl font-extrabold tracking-tight text-gray-900">
+          <%= number_with_delimiter(@event.page_views) %>
+        </div>
+        <%= display_change(@event.page_views_change) %>
+      </div>
+    </div>
+  </div>
+
+  <%= subheading("Recent Reservations", class: "mt-12") %>
+
+  <div class="mt-4 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
+    <table class="w-full table-fixed divide-y divide-gray-200">
+      <thead>
+      <tr>
+        <th scope="col" class="py-3.5 pl-6 pr-3 text-left text-sm font-semibold text-gray-900">
+          Reservation Number
+        </th>
+        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+          Purchase date
+        </th>
+        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+          Customer
+        </th>
+        <th scope="col" class="py-3.5 pl-3 pr-6 text-right text-sm font-semibold text-gray-900">
+          Amount
+        </th>
+      </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-200">
+      <% @event.orders.order(created_at: :desc).limit(10).each do |order| %>
+        <tr class="group cursor-pointer hover:bg-gray-50">
+          <td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm text-gray-900">
+            <%= link_to order.id, order_path(order) %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+            <%= format_date(order.order_date) %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
+            <%= order.customer&.name || "N/A" %>
+          </td>
+          <td class="whitespace-nowrap py-4 pl-3 pr-6 text-right text-sm text-gray-900">
+            <%= format_currency(order.amount) %>
+          </td>
+        </tr>
+      <% end %>
+
+      <% if @event.orders.empty? %>
+        <tr>
+          <td colspan="4" class="py-8 text-center text-sm text-gray-500">
+            No orders found for this event.
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <% if @event.orders.count > 10 %>
+    <div class="mt-4 text-center">
+      <%#= link_to "View all orders", event_orders_path(@event), class: "text-sm text-gray-600 hover:text-gray-900" %>
+    </div>
+  <% end %>
+
+  <div class="mt-10 grid gap-8 lg:grid-cols-2">
+    <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-950/5">
+      <h3 class="text-base font-semibold leading-7 text-gray-900">Event Details</h3>
+      <dl class="mt-4 space-y-4 divide-y divide-gray-200">
+        <div class="flex justify-between pt-4 first:pt-0">
+          <dt class="text-sm font-medium text-gray-500">Status</dt>
+          <dd class="text-sm text-gray-900"><%= status_badge(@event.status) %></dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Date</dt>
+          <dd class="text-sm text-gray-900"><%= format_date(@event.date, :long) %></dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Time</dt>
+          <dd class="text-sm text-gray-900"><%= @event.time %></dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Location</dt>
+          <dd class="text-sm text-gray-900"><%= @event.location %></dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Availability</dt>
+          <dd class="text-sm text-gray-900"><%= @event.tickets_available - @event.tickets_sold %> tickets available</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-950/5">
+      <h3 class="text-base font-semibold leading-7 text-gray-900">Performance Metrics</h3>
+      <dl class="mt-4 space-y-4 divide-y divide-gray-200">
+        <div class="flex justify-between pt-4 first:pt-0">
+          <dt class="text-sm font-medium text-gray-500">Revenue per Ticket</dt>
+          <dd class="text-sm text-gray-900">
+            <% if @event.tickets_sold > 0 && @event.total_revenue.present? %>
+              <%= format_currency(@event.total_revenue / @event.tickets_sold) %>
+            <% else %>
+              N/A
+            <% end %>
+          </dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Ticket Sales Progress</dt>
+          <dd class="text-sm text-gray-900">
+            <% if @event.tickets_available > 0 %>
+              <%= number_to_percentage((@event.tickets_sold.to_f / @event.tickets_available) * 100, precision: 1) %>
+            <% else %>
+              N/A
+            <% end %>
+          </dd>
+        </div>
+        <div class="flex justify-between pt-4">
+          <dt class="text-sm font-medium text-gray-500">Page Views</dt>
+          <dd class="text-sm text-gray-900"><%= number_with_delimiter(@event.page_views) %></dd>
+        </div>
+      </dl>
+
+      <div class="mt-6">
+        <h4 class="text-sm font-medium text-gray-500">Sales Progress</h4>
+        <div class="mt-2">
+          <%= progress_bar(@event.tickets_sold, @event.tickets_available, show_text: true, class: "h-4") %>
+        </div>
+        <div class="mt-1 text-xs text-gray-500">
+          <%= @event.tickets_sold %> of <%= @event.tickets_available %> tickets sold
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-8 flex justify-end gap-4">
+    <%= link_to "Back to Events", events_path, class: "inline-flex items-center justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50" %>
+
+    <% if @event.status == "On Sale" && @event.tickets_sold < @event.tickets_available %>
+      <%= link_to "Create New Order", new_order_path(event_id: @event.id), class: "inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-gray-700" %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+<%# app/views/events/_form.html.erb %>
+
+<%= form_with(model: event, class: "space-y-8") do |form| %>
+  <% if event.errors.any? %>
+    <div class="rounded-md bg-red-50 p-4 ring-1 ring-red-200">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5 text-red-400">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="ml-3">
+          <h3 class="text-sm font-medium text-red-800">
+            <%= pluralize(event.errors.count, "error") %> prohibited this event from being saved:
+          </h3>
+          <div class="mt-2 text-sm text-red-700">
+            <ul class="list-disc space-y-1 pl-5">
+              <% event.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-zinc-950/5 dark:bg-zinc-800 dark:ring-white/10">
+    <h3 class="text-base font-semibold leading-7 text-zinc-950 dark:text-white">Basic Information</h3>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      <div class="sm:col-span-4">
+        <%= form.label :name, class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.text_field :name, class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+      </div>
+
+      <div class="sm:col-span-4">
+        <%= form.label :location, class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.text_field :location, placeholder: "e.g. 123 Main St., City, State", class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+      </div>
+
+      <div class="sm:col-span-2">
+        <%= form.label :status, class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.select :status, [['On Sale', 'On Sale'], ['Closed', 'Closed'], ['Postponed', 'Postponed'], ['Cancelled', 'Cancelled']], {}, { class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" } %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-zinc-950/5 dark:bg-zinc-800 dark:ring-white/10">
+    <h3 class="text-base font-semibold leading-7 text-zinc-950 dark:text-white">Date & Time</h3>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      <div class="sm:col-span-1">
+        <%= form.label :date, class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.date_field :date, class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+      </div>
+
+      <div class="sm:col-span-1">
+        <%= form.label :time, class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.text_field :time, placeholder: "e.g. 7 PM", class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-zinc-950/5 dark:bg-zinc-800 dark:ring-white/10">
+    <h3 class="text-base font-semibold leading-7 text-zinc-950 dark:text-white">Ticket Information</h3>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      <div class="sm:col-span-2">
+        <%= form.label :tickets_available, "Available Tickets", class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.number_field :tickets_available, min: 0, class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-zinc-950/5 dark:bg-zinc-800 dark:ring-white/10">
+    <h3 class="text-base font-semibold leading-7 text-zinc-950 dark:text-white">Media</h3>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      <div class="sm:col-span-6">
+        <%= form.label :img_url, "Image URL", class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.text_field :img_url, placeholder: "https://...", class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+        <p class="mt-1 text-sm text-zinc-500">URL for the main event image.</p>
+      </div>
+
+      <div class="sm:col-span-6">
+        <%= form.label :thumb_url, "Thumbnail URL", class: "block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100" %>
+        <div class="mt-2">
+          <%= form.text_field :thumb_url, placeholder: "https://...", class: "block w-full rounded-md border-0 py-1.5 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" %>
+        </div>
+        <p class="mt-1 text-sm text-zinc-500">URL for a smaller thumbnail image. Leave blank to use the main image.</p>
+      </div>
+
+      <% if event.img_url.present? %>
+        <div class="sm:col-span-3">
+          <label class="block text-sm font-medium leading-6 text-zinc-900 dark:text-zinc-100">Current Image</label>
+          <div class="mt-2">
+            <% if event.img_url.present? %>
+              <%= image_tag event.img_url, alt: event.name, class: "aspect-[3/2] rounded-lg shadow-sm object-cover max-w-full h-auto" %>
+            <% else %>
+              <div class="aspect-[3/2] rounded-lg shadow-sm bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center">
+                <span class="text-2xl font-bold text-zinc-400 dark:text-zinc-500"><%= event.name.first.upcase %></span>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="flex justify-end gap-4">
+    <%= link_to "Cancel", events_path, class: "inline-flex items-center justify-center rounded-md border border-zinc-300 bg-white px-4 py-2 text-sm font-medium text-zinc-700 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700" %>
+
+    <button type="submit" class="inline-flex items-center justify-center rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700">
+      <%= event.new_record? ? "Create Event" : "Update Event" %>
+    </button>
+  </div>
+<% end %>
