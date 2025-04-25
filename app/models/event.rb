@@ -49,7 +49,7 @@ class Event < ApplicationRecord
   scope :recent, -> { order(date: :desc) }
 
   # Constants
-  EVENT_STATUSES = ["On Sale", "Closed", "Cancelled", "Postponed"].freeze
+  EVENT_STATUSES = [ "On Sale", "Closed", "Cancelled", "Postponed" ].freeze
   DEFAULT_CAPACITY = 500 # Default capacity if not specified
 
   # Calculate tickets sold - either from database or from orders count

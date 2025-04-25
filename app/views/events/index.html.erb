@@ -1,17 +1,46 @@
 <p style="color: green"><%= notice %></p>
-
+<div class="">
+  <%#= render 'layouts/sidebar' %>
+</div>
 <% content_for :title, "Events" %>
 
-<h1>Events</h1>
+<%# app/views/events/index.html.erb %>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-gray-900">Events</h1>
+    <%= link_to "New Event", new_event_path, class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-900 hover:bg-gray-700" %>
+  </div>
 
-<div id="events" class="my-5 flex flex-row flex-wrap justify-center">
-  <% @events.each do |event| %>
-    <%= render event %>
-    <p>
-      <%= link_to "Show this event", event %>
-    </p>
-  <% end %>
+  <ul class="mt-8 divide-y divide-gray-200">
+    <% @events.each do |event| %>
+      <li class="py-4 flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+          <div class="w-16 h-16">
+            <%= event_image(event, class: "w-full h-full object-cover") %>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-gray-900">
+              <%= link_to event.name, event_path(event) %>
+            </h2>
+            <p class="text-sm text-gray-500">
+              <%= format_date(event.date) %> at <%= event.time %>
+            </p>
+            <p class="text-sm text-gray-500"><%= event.location %></p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <%= status_badge(event.status) %>
+          <%= link_to "Edit", edit_event_path(event), class: "text-blue-600 hover:text-blue-800" %>
+        </div>
+      </li>
+    <% end %>
+
+    <% if @events.empty? %>
+      <li class="py-8 text-center text-gray-500">
+        No events found. <%= link_to "Create one", new_event_path, class: "text-blue-600 hover:text-blue-800" %>.
+      </li>
+    <% end %>
+  </ul>
 </div>
 
-<%= link_to "New event", new_event_path %>
 

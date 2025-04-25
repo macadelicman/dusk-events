@@ -2,15 +2,57 @@
 
 <% content_for :title, "Orders" %>
 
-<h1>Orders</h1>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-gray-900">Reservations</h1>
+    <%= link_to "New Reservation", new_order_path, class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-900 hover:bg-gray-700" %>
+  </div>
 
-<div id="orders">
-  <% @orders.each do |order| %>
-    <%= render order %>
-    <p>
-      <%= link_to "Show this order", order %>
-    </p>
-  <% end %>
+  <div class="mt-8 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
+    <table class="w-full table-fixed divide-y divide-gray-200">
+      <thead>
+      <tr>
+        <th class="py-3.5 pl-6 pr-3 text-left text-sm font-semibold text-gray-900">Reservation ID</th>
+        <th class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Purchase Date</th>
+        <th class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Customer</th>
+        <th class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Event</th>
+        <th class="py-3.5 pl-3 pr-6 text-right text-sm font-semibold text-gray-900">Amount</th>
+        <th class="px-3 py-3.5 text-right text-sm font-semibold text-gray-900">Actions</th>
+      </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-200">
+      <% @orders.each do |order| %>
+        <tr class="hover:bg-gray-50">
+          <td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm text-gray-900">
+            <%= order.id %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+            <%= format_date(order.order_date) %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
+            <%= order.customer&.name || "N/A" %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
+            <%= order.event&.name || "N/A" %>
+          </td>
+          <td class="whitespace-nowrap py-4 pl-3 pr-6 text-right text-sm text-gray-900">
+            <%= format_currency(order.amount) %>
+          </td>
+          <td class="whitespace-nowrap px-3 py-4 text-right text-sm font-medium">
+            <%= link_to "Show", order_path(order), class: "text-blue-600 hover:text-blue-800" %>
+            <%= link_to "Edit", edit_order_path(order), class: "ml-2 text-indigo-600 hover:text-indigo-800" %>
+            <%= link_to "Delete", order_path(order), method: :delete, data: { confirm: "Are you sure?" }, class: "ml-2 text-red-600 hover:text-red-800" %>
+          </td>
+        </tr>
+      <% end %>
+      <% if @orders.empty? %>
+        <tr>
+          <td colspan="6" class="py-8 text-center text-sm text-gray-500">
+            No orders found.
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
 </div>
-
-<%= link_to "New order", new_order_path %>

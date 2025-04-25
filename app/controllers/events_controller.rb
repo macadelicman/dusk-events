@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   # Require authentication for all actions except the index.
-  before_action :authenticate_user!, except: [ :index ]
+  # before_action :authenticate_user!, except: [ :index ]
   before_action :set_event, only: %i[ show edit update destroy ]
 
   # GET /events or /events.json

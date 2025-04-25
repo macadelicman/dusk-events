@@ -1,0 +1,955 @@
+{
+  "data": {
+    "products": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/Product/7770160759031",
+            "title": "Test Product 1",
+            "handle": "test-product-1",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43252078969079",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45343755370743"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/37918450843895"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": []
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/30497634943223"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7770160824567",
+            "title": "Copy of Test Product 1",
+            "handle": "copy-of-test-product-1",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43252079001847",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45343755403511"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/37918452515063"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": []
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/30497636647159"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7770160857335",
+            "title": "Copy of Copy of Test Product 1",
+            "handle": "copy-of-copy-of-test-product-1",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43252079034615",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45343755436279"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/37918453727479"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": []
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/30497637826807"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7771314290935",
+            "title": "Copy of Test Product 1",
+            "handle": "copy-of-test-product-2",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43255772086519",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45347480305911"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/37918854152439"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": []
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/30498041233655"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7773216145655",
+            "title": "Copy of Test Product 1",
+            "handle": "copy-of-test-product-3",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43261080207607",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45352795242743"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/37939132236023"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": []
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/30518554853623"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7901449552119",
+            "title": "Unisex lightweight zip up windbreaker",
+            "handle": "unisex-lightweight-zip-up-windbreaker",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778656993527",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954081527"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657026295",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954114295"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657059063",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954147063"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657091831",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954179831"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657124599",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954212599"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657157367",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954245367"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657190135",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954278135"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657222903",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954310903"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657255671",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954343671"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657288439",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954376439"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657321207",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954409207"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657353975",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954441975"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657386743",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954474743"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43778657419511",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45872954507511"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353892471031"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353892700407"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353892995319"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353893257463"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353893454071"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353893650679"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39353893945591"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Metafield/23261638754551"
+                  }
+                }
+              ]
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950613545207"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950613774583"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950614069495"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950614331639"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950614528247"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950614724855"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/31950615019767"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583148279"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583639799"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583705335"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/388480598263"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7910409896183",
+            "title": "Embroidered Beanie",
+            "handle": "embroidered-beanie",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43803855945975",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45898498113783"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/41100173476087"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Metafield/23454806606071"
+                  }
+                }
+              ]
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/33714730402039"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387489726711"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583639799"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583705335"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/388480598263"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390390776055"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7910411370743",
+            "title": "Ribbed Knit Beanie",
+            "handle": "ribbed-knit-beanie",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43803859484919",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45898501652727"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/41100187730167"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Metafield/23454841471223"
+                  }
+                }
+              ]
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/33714744819959"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387489726711"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583639799"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583705335"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/388480598263"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390390776055"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390921715959"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7910421725431",
+            "title": "Retro Trucker Cap",
+            "handle": "retro-trucker-cap",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43803879670007",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45898521837815"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43803879702775",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45898521870583"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502670495991"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502670758135"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502670954743"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502670987511"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502675378423"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502675575031"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502675837175"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502675902711"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Metafield/23455003410679"
+                  }
+                }
+              ]
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101242568951"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101242765559"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101242929399"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101242962167"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101247385847"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101247582455"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101247844599"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101247910135"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387489726711"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583639799"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583705335"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/388480598263"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390390776055"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390921715959"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/7910427132151",
+            "title": "Thnk: Visor",
+            "handle": "visor",
+            "variants": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductVariant/43803892023543",
+                    "inventoryItem": {
+                      "id": "gid://shopify/InventoryItem/45898534191351"
+                    }
+                  }
+                }
+              ]
+            },
+            "images": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502773584119"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502773649655"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502773715191"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502774108407"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/ProductImage/39502774141175"
+                  }
+                }
+              ]
+            },
+            "metafields": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Metafield/23455098863863"
+                  }
+                }
+              ]
+            },
+            "media": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101346771191"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101346836727"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101346869495"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101347262711"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/MediaImage/32101347328247"
+                  }
+                }
+              ]
+            },
+            "collections": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387489726711"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583639799"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/387583705335"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/388480598263"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/390390776055"
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/Collection/478089576695"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "endCursor": "eyJsYXN0X2lkIjo3OTEwNDI3MTMyMTUxLCJsYXN0X3ZhbHVlIjoiNzkxMDQyNzEzMjE1MSJ9"
+      }
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 198,
+      "actualQueryCost": 82,
+      "throttleStatus": {
+        "maximumAvailable": 4000,
+        "currentlyAvailable": 3918,
+        "restoreRate": 200
+      }
+    }
+  }
+}

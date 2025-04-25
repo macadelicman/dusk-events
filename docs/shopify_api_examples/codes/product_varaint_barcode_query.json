@@ -1,0 +1,63 @@
+{
+  "data": {
+    "product": {
+      "id": "gid://shopify/Product/9546282926327",
+      "title": "100% Baby Alpaca Throw",
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/49191732478199",
+              "title": "Iron Ore",
+              "sku": "TH-BBY-19",
+              "barcode": "https://thnk.com/products/100-baby-alpaca-throw?variant=49191732478199"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/49191732510967",
+              "title": "London Fog",
+              "sku": "TH-BBY-16",
+              "barcode": "https://thnk.com/products/100-baby-alpaca-throw?variant=49191732510967"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/49191732543735",
+              "title": "Truffle",
+              "sku": "TH-BBY-03",
+              "barcode": "v9807ad7e-f3cf-484f-83e9-7812ba7dfcca"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/49194341695735",
+              "title": "Blue Jean",
+              "sku": "TH-BBY-06",
+              "barcode": "v12b12bcb-5a22-46e3-a9a9-22ff4f072cfc"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/49194341728503",
+              "title": "Horizon",
+              "sku": "TH-BBY-08",
+              "barcode": "vdd490fa4-57f5-4260-81d4-fee706faced6"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 10,
+      "actualQueryCost": 6,
+      "throttleStatus": {
+        "maximumAvailable": 4000,
+        "currentlyAvailable": 3994,
+        "restoreRate": 200
+      }
+    }
+  }
+}

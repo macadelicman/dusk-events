@@ -1,12 +1,10 @@
 
 <% provide(:title, "Home") %>
-
+<div class="">
+  <%#= render 'layouts/sidebar' %>
+</div>
 <ul>
   <li>
     <%= link_to 'Events', events_path, class: "" %>
   </li>
 </ul>
-<div data-controller="react-component"
-     data-react-component-name-value="event-detail"
-     data-react-component-props-value="<%= { id: @event.id }.to_json %>">
-</div>

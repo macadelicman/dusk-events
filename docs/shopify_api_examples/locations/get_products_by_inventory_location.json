@@ -1,0 +1,983 @@
+{
+  "data": {
+    "location": {
+      "id": "gid://shopify/Location/96950124791",
+      "name": "Grove Online",
+      "inventoryLevels": {
+        "edges": [
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319484711159",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295283093751",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9574598705399",
+                    "title": "Blue and White Octopus Bowl",
+                    "description": "Imagine walking into your kitchen, the heart of your home, and being greeted by a piece that radiates warmth and sophistication. Our Continental Home Blue & White Octopus Handcrafted Bowl is more than just a bowl; it's a statement of style and artistry. Handcrafted by skilled Thai artisans, this stunning 11\" ceramic bowl platter is a true masterpiece. With its beautifully intricate design and pearl white glaze finish, it captures the timeless allure of blue and white hues, bringing a touch of natural beauty to any room. Picture your dining table adorned with this elegant piece, serving as a captivating focal point whether you're hosting a dinner party or enjoying a quiet meal. Or envision it as an accent piece in your living room, adding a layer of sophistication to your decor. Enhance your home, elevate your gatherings, and experience the joy of owning a piece of art that seamlessly blends beauty and functionality. Bring the Continental Home Blue & White Octopus Hand-Crafted Bowl into your home today, and make every moment a little more special. 11\"W X 11\"D X 4\"H",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "blue-white-octopus-bowl",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59236217061623",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/98bddfc8f8b6f7b626591a990fc67c79e954b4ec83e02014527f52024f5a416a.webp?v=1734377551",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319499849975",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295298232567",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9574603882743",
+                    "title": "Green Lily Flowers Vase",
+                    "description": "Immerse in the allure of the handmade ceramic green lily flower design vase, a testament to exquisite craftsmanship. Meticulously crafted, its sleek form is adorned with a graceful lily flower design, creating a harmonious blend of artistry and elegance. The verdant green hue adds a touch of natural freshness, making it a timeless and refined accent for any space. This handcrafted vase stands as a symbol of enduring charm, effortlessly enhancing the ambiance with its delicate beauty and showcasing the meticulous craftsmanship within its graceful design. Continental Home Dimensions: 8\" Wide x 10 \"Deep",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "green-lily-flowers-design-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59236282859767",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/558b81fd6f9f8602321d07200eb3c3557a23b44b3f2309fe60e797c5c056ab36.webp?v=1734378470",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319524524279",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295322874103",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9574608797943",
+                    "title": "Blue and White Coral Vase - Small",
+                    "description": "Elegance meets artistry in the Round Soft Blue and White Original Hand Made Barnacle Vase, an exceptional masterpiece that is both unique and captivating. This under-the-sea-inspired ceramic creation is meticulously handcrafted, with each piece meticulously formed to create an exquisite tower-like structure. It effortlessly captures attention and becomes the centerpiece of any room it graces. Whether adorned with your favorite stems or left to shine, this vase exudes simple yet profound elegance. Its presence is transformative, undeniably becoming the focal point of your cherished space, sparking conversations and admiration. Handcrafted in Thailand, it embodies a rich tradition of craftsmanship and creativity, making it a cherished and timeless addition to your favorite room. Continental Home 7\"W X 6.5\"H",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "blue-and-white-coral-vase-small",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59236328800503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/807c9a6b00e14a7e6b5b03ce440a1c6a3ad2a32c10cdf011234c2029bfda4aec.webp?v=1734379053",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59236328833271",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/568e7c6b7e4b6d1ce8804c5a04f977c195fa7618048d085c9ba98a5b9c1c7225.webp?v=1734379053",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319565844727",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364063479",
+                  "title": "Black",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319565877495",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364096247",
+                  "title": "Fuchsia",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319565910263",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364129015",
+                  "title": "Granny Apple Green",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319565943031",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364161783",
+                  "title": "Blue",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319565975799",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364194551",
+                  "title": "Marine Blue",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319566008567",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364227319",
+                  "title": "Turquoise",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51319566041335",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49295364260087",
+                  "title": "White",
+                  "product": {
+                    "id": "gid://shopify/Product/9574621806839",
+                    "title": "Mini Ruffles Vase",
+                    "description": "The Mini Ruffles are a smaller version of the Ruffle Bud. They are available in the same opaque colors the other Ruffles come in. They are handcrafted blown glass bud vases that resemble flowers. Made in the USA Terraglassworks 3-3.5 inches tall and wide.",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "mini-ruffles-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704906121463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1171_2f72453a-8d0f-44e1-8085-f72c90f30188.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976638199",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1173.jpg?v=1743019865",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976703735",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1174.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59704976736503",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1175.jpg?v=1741280973",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59705005965559",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1177.jpg?v=1741281179",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321687736567",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297428578551",
+                  "title": "Blue",
+                  "product": {
+                    "id": "gid://shopify/Product/9575204520183",
+                    "title": "Nut Bowls",
+                    "description": "The Nut Bowls are straight shallow bowls that are perfect for snacks and hors d’ oeuvres. They are handcrafted blown glass. 4.5 inches wide and 3 inches tall, they are available in translucent colors with brightly colored opaque rims. Hand wash only. Terraglassworks Choose between: Copper Blue with Blue Rim Cranberry Pink with Red Rim Lime with Blue Rim Purple with Red Rim",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "nut-bowls",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811509495",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1005.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811378423",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1003.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811476727",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1002.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811443959",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1006.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321687769335",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297428611319",
+                  "title": "Cranberry Pink",
+                  "product": {
+                    "id": "gid://shopify/Product/9575204520183",
+                    "title": "Nut Bowls",
+                    "description": "The Nut Bowls are straight shallow bowls that are perfect for snacks and hors d’ oeuvres. They are handcrafted blown glass. 4.5 inches wide and 3 inches tall, they are available in translucent colors with brightly colored opaque rims. Hand wash only. Terraglassworks Choose between: Copper Blue with Blue Rim Cranberry Pink with Red Rim Lime with Blue Rim Purple with Red Rim",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "nut-bowls",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811509495",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1005.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811378423",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1003.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811476727",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1002.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811443959",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1006.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321687802103",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297428644087",
+                  "title": "Lime",
+                  "product": {
+                    "id": "gid://shopify/Product/9575204520183",
+                    "title": "Nut Bowls",
+                    "description": "The Nut Bowls are straight shallow bowls that are perfect for snacks and hors d’ oeuvres. They are handcrafted blown glass. 4.5 inches wide and 3 inches tall, they are available in translucent colors with brightly colored opaque rims. Hand wash only. Terraglassworks Choose between: Copper Blue with Blue Rim Cranberry Pink with Red Rim Lime with Blue Rim Purple with Red Rim",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "nut-bowls",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811509495",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1005.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811378423",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1003.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811476727",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1002.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811443959",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1006.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321687834871",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297428676855",
+                  "title": "Purple",
+                  "product": {
+                    "id": "gid://shopify/Product/9575204520183",
+                    "title": "Nut Bowls",
+                    "description": "The Nut Bowls are straight shallow bowls that are perfect for snacks and hors d’ oeuvres. They are handcrafted blown glass. 4.5 inches wide and 3 inches tall, they are available in translucent colors with brightly colored opaque rims. Hand wash only. Terraglassworks Choose between: Copper Blue with Blue Rim Cranberry Pink with Red Rim Lime with Blue Rim Purple with Red Rim",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "nut-bowls",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811509495",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1005.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811378423",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1003.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811476727",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1002.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241811443959",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/IMG_1006.jpg?v=1734461329",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321750618359",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297486708983",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9575215071479",
+                    "title": "Stacks and Stubbs",
+                    "description": "Handcrafted in Portland, OR using traditional glassblowing techniques. The Stubbs are 3.5-4 inches tall and 3 inches wide and the Stacks are 5 inches tall and 3 inches wide. Made in the USA Terraglassworks",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "stacks-and-stubbs",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241714516215",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/ScreenShot2024-12-17at12.55.27PM.png?v=1734458197",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241714581751",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/ScreenShot2024-12-17at12.58.01PM.png?v=1734458312",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59241714614519",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/ScreenShot2024-12-17at12.54.20PM.png?v=1734458202",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321952305399",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297679253751",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9575250755831",
+                    "title": "Green and White Coral Vase",
+                    "description": "Elegance in every detail, this hand-crafted vase is a testament to the skill of master craftsmen. Each curve and contour are meticulously sculpted and finished with a glossy soft green and white glaze, creating a truly stunning piece of art. Whether it graces a room as an accent piece or cradles your favorite blooms, its beauty is undeniable. Hand-crafted in Thailand, this vase adds a touch of timeless elegance to any space, making a statement wherever it finds its place. Continental Home 8\"W X 6\"H",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "green-and-white-coral-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59242330292471",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/43d016a65ee880ed6c53421d402c25f2c9050099828603ab9f6498dc1b2c2777.webp?v=1734470048",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51321961316599",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49297688232183",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9575253311735",
+                    "title": "Green and White Ceramic Vase - Large",
+                    "description": "Hand Made one of a kind collectable, Thai ceramic vase. This sea anemone lamp is truly original, using handed down old craft technique that dates back over 800 years. 8.5\" x 8.5\" x 9\" Tall",
+                    "productType": "",
+                    "vendor": "Thnk ",
+                    "handle": "large-green-and-white-ceramic-vase",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59242385768695",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/eeec4e3d50461e915981a5c8c4bbd3207751c520aeb0258282f18d281eeaf59f.webp?v=1734470843",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51326331945207",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49301889810679",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9576553316599",
+                    "title": "Bleached Chapati Board",
+                    "description": "The Chapati Board is a long-standing household necessity in homes across India. These vintage Bleached Chapati Boards take a modern turn as a home accent. These round wood slabs with small legs make a sturdy farmhouse display stand for candles or a collection of succulents. These are for display only. This is a vintage item. Condition, shape, size, and color will vary. Dimensions: 11 inches Blue Ocean Traders",
+                    "productType": "",
+                    "vendor": "Thnk Collective ",
+                    "handle": "bleached-chapati-board",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59253424521463",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/59a03565d524075a16a1fcb26b5886871f243f90f83f5d8a069b8823b1d21f79.webp?v=1734629681",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59253424554231",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/151e73c74ad49d6b64c36c58c07c1a103f00f3a90bc74daec64cb3c4b2346996.webp?v=1734629681",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51326335779063",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49301893087479",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9576554496247",
+                    "title": "Chapati Board, Large",
+                    "description": "Bring the flavor and style of a traditional Indian kitchen into your own. These Chapati boards are modeled after the round, flat wood tools used in Indian cooking to make unleavened flat breads, like the popular name. Today, these pieces make great risers and display pieces. This is a vintage item. Condition, size, and color will vary. Dimensions: 12\" x 3\" Blue Ocean Traders",
+                    "productType": "",
+                    "vendor": "Thnk Collective ",
+                    "handle": "chapati-board-large",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59253449294071",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/90542f2f0b6bc20b10bfec68bbf1c98bf56c9ac6dcf035f3134f6e5b5f3c58bb.webp?v=1735981338",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59253449326839",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/772007b6e77ddfe0bc0e0656f23bffe2e3540e5517b74b12a42058252a3370db.webp?v=1735981338",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59253449261303",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/18b7e0d4723f0d9808d78b78cd16bdc58d70fa0c136c94c8dacab0064339f750.webp?v=1735981338",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "item": {
+                "id": "gid://shopify/InventoryItem/51326530945271",
+                "tracked": true,
+                "variant": {
+                  "id": "gid://shopify/ProductVariant/49302087860471",
+                  "title": "Default Title",
+                  "product": {
+                    "id": "gid://shopify/Product/9576585298167",
+                    "title": "North India Bajot",
+                    "description": "Bring the flavor and style of a traditional Indian kitchen into your own. The Indian bajot is a hand-carved teak wood floor table, where families gather to share their daily meals. Today, they make for great risers and display pieces. This is a vintage item. Condition, carving, and color will vary. Dimensions: 23 x 17 x 3\" Blue Ocean Traders",
+                    "productType": "",
+                    "vendor": "Thnk Collective ",
+                    "handle": "north-india-bajot",
+                    "images": {
+                      "edges": [
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59254134931703",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/7749fe3465655d5ff245a2a2b76ce377812adc7befed2cbd658b14a1cb168a2e.webp?v=1734636547",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59254134964471",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/a0dc146d480dfcf1db8f9eeb1e29f6d05cdcb2080b7c3594474ebe1d1c9cb451.webp?v=1734636547",
+                            "altText": ""
+                          }
+                        },
+                        {
+                          "node": {
+                            "id": "gid://shopify/ProductImage/59254134997239",
+                            "url": "https://cdn.shopify.com/s/files/1/0659/1450/3415/files/b7462d88c279b9a031fcabd76c1a1d58b1d071ee31057498f6dd58dd3c01c0cb.webp?v=1734636547",
+                            "altText": ""
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "eyJsYXN0X2lkIjo1NDcwMzE5MzYyMDcyNywibGFzdF92YWx1ZSI6IjU0NzAzMTkzNjIwNzI3In0="
+        }
+      }
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 53,
+      "actualQueryCost": 43,
+      "throttleStatus": {
+        "maximumAvailable": 4000,
+        "currentlyAvailable": 3957,
+        "restoreRate": 200
+      }
+    }
+  }
+}

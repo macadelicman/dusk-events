@@ -1,0 +1,138 @@
+{
+  "data": {
+    "blogs": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Blog/88371200247",
+          "handle": "blog",
+          "title": "Thoughtful Living",
+          "updatedAt": "2025-03-27T20:52:18Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2022-08-24T19:42:53Z",
+          "templateSuffix": "",
+          "tags": [
+            "Emotional Wellness",
+            "Environmental Wellness",
+            "Financial Wellness",
+            "Intellectual Wellness",
+            "Occupational Wellness",
+            "Physical Wellness",
+            "Social Wellness",
+            "Spiritual Wellness"
+          ]
+        },
+        {
+          "id": "gid://shopify/Blog/88441127159",
+          "handle": "cannabis-science",
+          "title": "Cannabis Science",
+          "updatedAt": "2023-06-26T15:29:01Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2022-08-29T20:22:33Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/88441159927",
+          "handle": "medical-marijuana-card",
+          "title": "Medical Marijuana Card",
+          "updatedAt": "2022-10-11T15:46:39Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2022-08-29T20:23:42Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987332343",
+          "handle": "emotional-wellness",
+          "title": "Emotional Wellness",
+          "updatedAt": "2025-03-20T14:43:38Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:43:38Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987365111",
+          "handle": "physical-wellness",
+          "title": "Physical Wellness",
+          "updatedAt": "2025-03-20T14:44:40Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:44:40Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987397879",
+          "handle": "intellectual-wellness",
+          "title": "Intellectual Wellness",
+          "updatedAt": "2025-03-20T14:45:10Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:45:10Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987660023",
+          "handle": "environmental-wellness",
+          "title": "Environmental Wellness",
+          "updatedAt": "2025-03-20T14:54:55Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:54:55Z",
+          "templateSuffix": "",
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987692791",
+          "handle": "spiritual-wellness",
+          "title": "Spiritual Wellness",
+          "updatedAt": "2025-03-20T14:55:21Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:55:21Z",
+          "templateSuffix": "",
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/109987725559",
+          "handle": "occupational-wellness",
+          "title": "Occupational Wellness",
+          "updatedAt": "2025-03-25T17:40:17Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-20T14:56:28Z",
+          "templateSuffix": null,
+          "tags": []
+        },
+        {
+          "id": "gid://shopify/Blog/110004535543",
+          "handle": "collaborations",
+          "title": "Collaborations",
+          "updatedAt": "2025-03-24T19:09:29Z",
+          "commentPolicy": "CLOSED",
+          "feed": null,
+          "createdAt": "2025-03-21T12:23:37Z",
+          "templateSuffix": "",
+          "tags": []
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 12,
+      "actualQueryCost": 6,
+      "throttleStatus": {
+        "maximumAvailable": 4000,
+        "currentlyAvailable": 3994,
+        "restoreRate": 200
+      }
+    }
+  }
+}

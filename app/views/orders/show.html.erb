@@ -1,10 +1,50 @@
-<p style="color: green"><%= notice %></p>
+ <p style="color: green"><%= notice %></p>
 
-<%= render @order %>
-
-<div>
-  <%= link_to "Edit this order", edit_order_path(@order) %> |
-  <%= link_to "Back to orders", orders_path %>
-
-  <%= button_to "Destroy this order", @order, method: :delete %>
-</div>
+ <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+   <div class="mb-4">
+     <%= back_link("Back to Orders", orders_path) %>
+   </div>
+   <div class="bg-white shadow sm:rounded-lg p-6">
+     <h1 class="text-2xl font-bold text-gray-900 mb-4">Order <%= @order.id %></h1>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+       <div>
+         <p class="text-sm text-gray-500">Purchase Date</p>
+         <p class="text-lg font-medium text-gray-900"><%= format_date(@order.order_date, :long) %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Amount</p>
+         <p class="text-lg font-medium text-gray-900"><%= format_currency(@order.amount) %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Fee</p>
+         <p class="text-lg font-medium text-gray-900"><%= @order.fee.present? ? format_currency(@order.fee) : "N/A" %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Net Amount</p>
+         <p class="text-lg font-medium text-gray-900"><%= format_currency(@order.net_amount) %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Transaction ID</p>
+         <p class="text-lg font-medium text-gray-900"><%= @order.transaction_id %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Payment Method</p>
+         <p class="text-lg font-medium text-gray-900">
+           <%= @order.payment_method.card_type %> ending in <%= @order.payment_method.card_number[-4..-1] if @order.payment_method.card_number.present? %>
+         </p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Customer</p>
+         <p class="text-lg font-medium text-gray-900"><%= @order.customer.name %></p>
+       </div>
+       <div>
+         <p class="text-sm text-gray-500">Event</p>
+         <p class="text-lg font-medium text-gray-900"><%= @order.event.name %></p>
+       </div>
+     </div>
+     <div class="mt-6 flex space-x-4">
+       <%= link_to "Edit Order", edit_order_path(@order), class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700" %>
+       <%= link_to "Back to Orders", orders_path, class: "inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50" %>
+     </div>
+   </div>
+ </div>

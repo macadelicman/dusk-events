@@ -1,0 +1,37 @@
+{
+  "data": {
+    "productVariantsBulkUpdate": {
+      "product": {
+        "id": "gid://shopify/Product/9546282926327"
+      },
+      "productVariants": [
+        {
+          "id": "gid://shopify/ProductVariant/49191732478199",
+          "barcode": "https://thnk.com/products/100-baby-alpaca-throw?variant=49191732478199",
+          "metafields": {
+            "edges": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/49191732510967",
+          "barcode": "https://thnk.com/products/100-baby-alpaca-throw?variant=49191732510967",
+          "metafields": {
+            "edges": []
+          }
+        }
+      ],
+      "userErrors": []
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 13,
+      "actualQueryCost": 12,
+      "throttleStatus": {
+        "maximumAvailable": 4000,
+        "currentlyAvailable": 3988,
+        "restoreRate": 200
+      }
+    }
+  }
+}
